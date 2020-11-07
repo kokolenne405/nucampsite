@@ -35,8 +35,8 @@ function Home(props) {
         <div className='col-md m-1'>
           <RenderCard
             item={props.campsite}
-            isLoading={props.campsitesLoading}
-            errMess={props.campsitesErrMess}
+            isLoading={props.campsites_Loading}
+            errMess={props.campsites_ErrMess}
           />
         </div>
         <div className='col-md m-1'>
@@ -49,8 +49,8 @@ function Home(props) {
         <div className='col-md m-1'>
           <RenderCard
             item={props.partners}
-            isLoading={props.partnersLoading}
-            errMess={props.partnersErrMess}
+            isLoading={props.partnerLoading}
+            errMess={props.partnerErrMess}
           />
         </div>
       </div>
